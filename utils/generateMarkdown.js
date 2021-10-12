@@ -43,6 +43,7 @@ function generateMarkdown(data) {
   ## Table of Contents
   
   * [Installation](#installation)
+  * [Usage](#usage)
   * [License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
@@ -51,6 +52,9 @@ function generateMarkdown(data) {
   ## Installation
   To install the necessary dependencies, run the following command:
   ${data.dependencies}
+
+  ## Usage
+  Repo instructions: ${data.usage}
 
   ## License
   This project is licensed under the ${data.license} license.

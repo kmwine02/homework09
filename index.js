@@ -26,6 +26,11 @@ const questions = [
         message: "Enter a short description of your project:"
     },
     {
+        type: "input",
+        name: "usage",
+        message: "Enter instructions for the repo:"
+    },
+    {
         type: "list",
         name: "license",
         message: "What kind of license should your project have?",
@@ -34,12 +39,14 @@ const questions = [
     {
         type: "input",
         name: "dependencies",
-        message: "What command should be run to install dependencies?"
+        message: "What command should be run to install dependencies?",
+        default: "npm i"
     },
     {
         type: "input",
         name: "tests",
-        message: "What command should be run to run tests?"
+        message: "What command should be run to run tests?",
+        default: "npm test"
     },
     {
         type: "input",
